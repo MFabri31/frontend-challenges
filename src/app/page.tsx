@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Nav";
 import ProjectList from "./components/ProjectList";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <ProjectList />
+      <Footer />
     </div>
   );
 }
